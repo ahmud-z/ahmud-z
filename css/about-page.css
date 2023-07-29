@@ -1,0 +1,54 @@
+.about {
+    width: 70%;
+    height: 100vh;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.avatar {
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 245, 245);
+
+}
+
+.circle-img {
+    border-radius: 900px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.about-text {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.resume-link {
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.resume-link:hover {
+    background-color: #444444;
+    transition: .15s;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+

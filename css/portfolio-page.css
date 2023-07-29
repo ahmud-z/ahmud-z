@@ -1,0 +1,18 @@
+.content-area {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+}
+
+
+.content-area img {
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+    padding: 50px 30px;
+    color: white;
+}

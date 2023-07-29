@@ -1,0 +1,44 @@
+.contact-info-container {
+    width: 50%;
+    height: 50vh;
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    border-radius: 4px;
+    box-shadow: 8px 10px 13px -3px rgba(194, 194, 194, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header {
+    color: rgb(0, 55, 98);
+}
+
+.contact-info {
+    padding-top: 40px;
+    flex-grow: 1;
+}
+
+.contact-info-container p {
+    padding-bottom: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.social a {
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+}
+
+.social a:hover {
+    color: black
+}
