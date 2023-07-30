@@ -1,6 +1,6 @@
 .cover-image {
     height: 400px;
-    background-image: url('/images/cover.png');
+    background-image: url('../images/cover.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -340px;
