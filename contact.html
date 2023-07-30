@@ -5,6 +5,10 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/contact-page.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -15,7 +19,29 @@
             <a href="about.html">ABOUT</a>
             <a href="products.html">PRODUCTS</a>
             <a href="contact.html">CONTACT</a>
-
+        </div>
+        
+        <div class="mobile-menu">
+            <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd" />
+                </svg>
+        
+                <svg id="cross-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        
+            <div id="mobile-menu-links" class="mobile-menu-links hidden">
+                <a href="index.html">HOME</a>
+                <a href="portfolio.html">PORFOLIO</a>
+                <a href="about.html">ABOUT</a>
+                <a href="products.html">PRODUCTS</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
         </div>
 
         <div class="content-area">
