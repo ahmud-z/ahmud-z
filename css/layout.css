@@ -59,6 +59,8 @@ body {
 	right: 30px;
 	bottom: 30px;
 	z-index: 3;
+
+	visibility: hidden;
 }
 
 .mobile-menu-links {
